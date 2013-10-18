@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/diffy/Library/Developer/Shared/Documentation/DocSets/com.gajahdigital.tbdll-demo.docset
+Time: 2013-10-11 09:57:18 +0000

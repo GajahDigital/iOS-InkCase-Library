@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LeFileService.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LeFileService</TokenIdentifier>
+			<Abstract type="html">Custom object for file service</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/sendFileWithPath:withExtend:withFolder:</TokenIdentifier>
+			<Abstract type="html">Send file over to inkCase</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)sendFileWithPath:(NSString *)filePath withExtend:(uint16_t)extend withFolder:(uint16_t)folder</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">path of the file to be sent</Abstract>
+				</Parameter><Parameter>
+					<Name>extend</Name>
+					<Abstract type="html">0xc064</Abstract>
+				</Parameter><Parameter>
+					<Name>folder</Name>
+					<Abstract type="html">0x01</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSInteger file size</Abstract></ReturnValue>
+			<Anchor>//api/name/sendFileWithPath:withExtend:withFolder:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/setPeripheral:</TokenIdentifier>
+			<Abstract type="html">The peripheral</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/peripheral</TokenIdentifier>
+			<Abstract type="html">The peripheral</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LeFileService/peripheral</TokenIdentifier>
+			<Abstract type="html">The peripheral</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/setCurrentFileSize:</TokenIdentifier>
+			<Abstract type="html">File size</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger currentFileSize</Declaration>
+			
+			
+			<Anchor>//api/name/currentFileSize</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/currentFileSize</TokenIdentifier>
+			<Abstract type="html">File size</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger currentFileSize</Declaration>
+			
+			
+			<Anchor>//api/name/currentFileSize</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LeFileService/currentFileSize</TokenIdentifier>
+			<Abstract type="html">File size</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger currentFileSize</Declaration>
+			
+			
+			<Anchor>//api/name/currentFileSize</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/setSentBytes:</TokenIdentifier>
+			<Abstract type="html">current byte size being sent</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sentBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sentBytes</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LeFileService/sentBytes</TokenIdentifier>
+			<Abstract type="html">current byte size being sent</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sentBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sentBytes</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LeFileService/sentBytes</TokenIdentifier>
+			<Abstract type="html">current byte size being sent</Abstract>
+			<DeclaredIn>LeFileService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger sentBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sentBytes</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

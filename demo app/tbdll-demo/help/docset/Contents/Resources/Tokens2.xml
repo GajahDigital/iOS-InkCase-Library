@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewController</TokenIdentifier>
+			<Abstract type="html">main view controller for making connection to peripheral</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileServiceDidConnected:</TokenIdentifier>
+			<Abstract type="html">Delegate method invoked when a successful connection happened</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileServiceDidConnected:(LeFileService *)service</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">the currently connected peripheral device</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fileServiceDidConnected:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileServiceDisConnected:</TokenIdentifier>
+			<Abstract type="html">Delegate method invoked when disconnection occurs</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileServiceDisConnected:(LeFileService *)service</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">the currently active peripheral</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fileServiceDisConnected:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileService:didSendFileSuccess:</TokenIdentifier>
+			<Abstract type="html">Delegate method invoked when sending of data is complete</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileService:(LeFileService *)service didSendFileSuccess:(BOOL)success</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">currently connected peripheral</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">return YES/NO</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fileService:didSendFileSuccess:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileService:refuseWithErrorCode:</TokenIdentifier>
+			<Abstract type="html">Error</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileService:(LeFileService *)service refuseWithErrorCode:(uint16_t)errorCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">currently connected peripheral</Abstract>
+				</Parameter><Parameter>
+					<Name>errorCode</Name>
+					<Abstract type="html">error description</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fileService:refuseWithErrorCode:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileService:progressUpdate:</TokenIdentifier>
+			<Abstract type="html">Delegate method invoked everytime a stream is sent over to the device</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileService:(LeFileService *)service progressUpdate:(NSInteger)sentBytes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>service</Name>
+					<Abstract type="html">currently connected peripheral device</Abstract>
+				</Parameter><Parameter>
+					<Name>sentBytes</Name>
+					<Abstract type="html">byte size being seing</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fileService:progressUpdate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileServiceDidReset</TokenIdentifier>
+			<Abstract type="html">reset</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileServiceDidReset</Declaration>
+			
+			
+			<Anchor>//api/name/fileServiceDidReset</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/armFileToIos:withExtend:</TokenIdentifier>
+			<Abstract type="html">unknown</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)armFileToIos:(NSMutableData *)mfd withExtend:(uint16_t)extend</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mfd</Name>
+					<Abstract type="html">unknown</Abstract>
+				</Parameter><Parameter>
+					<Name>extend</Name>
+					<Abstract type="html">unknown</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/armFileToIos:withExtend:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/fileServiceDidPush</TokenIdentifier>
+			<Abstract type="html">Delegate method invoked when there is a button event from the inkCase</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)fileServiceDidPush</Declaration>
+			
+			
+			<Anchor>//api/name/fileServiceDidPush</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

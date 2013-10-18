@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.gajahdigital.tbdll-demo</string>
+	<key>CFBundleName</key>
+	<string>tbdll-demo Documentation</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	
+	
+	
+	<key>DocSetFallbackURL</key>
+	<string>http://inkcase.com/Gajah Digital</string>
+	<key>DocSetFeedName</key>
+	<string>tbdll-demo Documentation</string>
+	<key>DocSetFeedURL</key>
+	<string>http://inkcase.com/Gajah Digital/Gajah Digital.atom</string>
+	<key>DocSetMinimumXcodeVersion</key>
+	<string>3.0</string>
+	<key>DocSetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>DashDocSetFamily</key>
+	<string>appledoc</string>
+	<key>DocSetPublisherIdentifier</key>
+	<string>com.gajahdigital.documentation</string>
+	<key>DocSetPublisherName</key>
+	<string>Gajah Digital</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013 Gajah Digital. All rights reserved.</string>
+</dict>
+</plist>
